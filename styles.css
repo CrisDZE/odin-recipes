@@ -1,13 +1,41 @@
-body{
-    margin-left: 80%;
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 0;
+    color: white;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/034/751/280/small/tex-mex-mexican-cuisine-food-collage-mexico-meal-vector.jpg);
+    font-size: 4em;
+    padding: 3%;
+    -webkit-text-stroke: 2px darkred;
 }
-h1{
-    text-align: center;
-}
+
 ul{
-    list-style: none;
+    
+    margin: 0;
+    padding-left: 0;
+    background-color: lightblue;
+}
+
+li{
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+
+li:hover{
+    background-color: rgb(93, 184, 214);
+    border: 1px solid blue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
